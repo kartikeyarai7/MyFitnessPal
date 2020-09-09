@@ -7,9 +7,9 @@ driver.get('https://www.myfitnesspal.com/account/login')  #Searching Myfitness P
 driver.maximize_window()
 
 email = driver.find_element_by_xpath('//*[@id="username"]')
-email.send_keys("Kartikeyarai7@gmail.com")
+email.send_keys("Your email@gmail.com") #Email id 
 password = driver.find_element_by_xpath('//*[@id="password"]')
-password.send_keys("Bareilly7")  
+password.send_keys("Password")  #Password
 
 time.sleep(3)
 
